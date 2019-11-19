@@ -28,3 +28,11 @@
     .text {
         font-weight: bold;
     }
+    
+    .photo {
+        width: 40%;
+    }
+    
+    .container {
+        margin-top: 70px;
+    }

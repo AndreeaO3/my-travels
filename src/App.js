@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Quote from "./Quote";
+import Travels from './Travels';
 
 // function App() {
 //   return (
@@ -33,7 +34,8 @@ class App1 extends Component {
           {/* <img src={logo} className="App-logo" alt="logo" /> */}
           <h1 className="App-title">My Travels</h1>
         </header>
-        <Quote 
+        
+        {/* <Quote 
         destination="Barcelona"
         country="Spain"
         distance= "2.757,3 km"
@@ -44,7 +46,8 @@ class App1 extends Component {
        country="Israel"
        distance="2.461,3 km"
        photo="https://d2mpqlmtgl1znu.cloudfront.net/AcuCustom/Sitename/DAM/017/Tel_Aviv_Adobe.jpg"
-       />
+       /> */}
+       <Travels/>
       </div>
     );
   }
